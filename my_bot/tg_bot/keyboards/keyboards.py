@@ -9,11 +9,10 @@ yes_no_kb: ReplyKeyboardMarkup = ReplyKeyboardMarkup(one_time_keyboard=True,
 
 button_yes: KeyboardButton = KeyboardButton(LEXICON_RU['yes_button'])
 button_no: KeyboardButton = KeyboardButton(LEXICON_RU['no_button'])
-button_piter: KeyboardButton = KeyboardButton(LEXICON_RU['piter'])
 
 
 # Располагаем кнопки в клавиатуре рядом друг с другом в одном ряду
-yes_no_kb.add(button_yes, button_no,button_piter)
+yes_no_kb.add(button_yes, button_no)
 
 
 # Создаем игровую клавиатуру с кнопками "Камень 🗿", "Ножницы ✂" и "Бумага 📜"
